@@ -12,7 +12,7 @@ ENV JAVA_HOME /usr/lib/jvm/java-8-openjdk-amd64
 
 # -- install Hive
 
-RUN wget http://apache.claz.org/hive/hive-1.2.2/apache-hive-1.2.2-bin.tar.gz
+RUN wget https://archive.apache.org/dist/hive/hive-1.2.2/apache-hive-1.2.2-bin.tar.gz
 RUN tar xf apache-hive-1.2.2-bin.tar.gz
 RUN mv apache-hive-1.2.2-bin /opt
 RUN ln -s /opt/apache-hive-1.2.2-bin /opt/hive
